@@ -1,10 +1,10 @@
 # featureCounts_repex
-Reproducible examples for my featureCounts related posts on [Bioconductor support](https://support.bioconductor.org/p/9156185/).
+Reproducible examples for my featureCounts related posts on [Bioconductor support](https://support.bioconductor.org).
 
 
 ## Confusing nonOverlap = 0 behavior
 
-The files necessary to reproduce the example discussed [here](https://support.bioconductor.org/p/9156185/) is located in the `nonOverlap_quirk` directory of this repo.
+The files necessary to reproduce the example discussed [here](https://support.bioconductor.org/p/9157388/) is located in the `nonOverlap_quirk` directory of this repo.
 
 Included is the full annotation file I was assigning reads with respect to, and 4 downsampled, sorted, and indexed bam files:
 
