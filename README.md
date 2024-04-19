@@ -15,7 +15,7 @@ Included is the full annotation file I was assigning reads with respect to, and 
 
 IGV screenshots shared in the forum posted are also included in this directory. The call to featureCounts used for this example looked like:
 
-`featureCounts -T 4 -s 1 -a Hs_genome_chr.gtf -R CORE -p --countReadPairs -g gene_id -t transcript --nonOverlap 0 --primary -o testout.featureCounts <input bam file>
+`featureCounts -T 4 -s 1 -a Hs_ensembl_chr.gtf -R CORE -p --countReadPairs -g gene_id -t transcript --nonOverlap 0 --primary -o testout.featureCounts <input bam file>
 `
 
 
